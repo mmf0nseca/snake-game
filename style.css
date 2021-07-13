@@ -1,0 +1,33 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    #0d0d0d,
+    #262626,
+    #404040,
+    #737373,
+    #d9d9d9
+  );
+  color: #97bf7a;
+
+  height: 900px;
+  width: 180vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  border: 5px solid #97bf7a;
+  border-radius: 50px;
+
+  padding: 15px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  font-size: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
